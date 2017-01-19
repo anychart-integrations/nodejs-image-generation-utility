@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-reports-generation-console-utilily-sample",
+  "main": "./index.js",
+  "version": "1.0.0",
+  "description": "This example shows how to generate reports with AnyChart charts and NodeJS.",
+  "title": "NodeJS utility for reports generation",
+  "homepage": "https://github.com/anychart-integrations/nodejs-reports-generation-console-utilily-sample",
+  "license": "Apache-2.0",
+  "keywords": [
+    "utilily",
+    "reports",
+    "export",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anychart-integrations/nodejs-reports-generation-console-utilily-sample"
+  },
+  "dependencies": {
+    "jsdom": "^9.9.1",
+    "commander": "^2.9.0",
+    "anychart": "7.13.0-dev-preview.0",
+    "anychart-export": "^1.0.0"
+  }
+}
