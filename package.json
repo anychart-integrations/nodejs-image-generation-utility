@@ -1,10 +1,10 @@
 {
-  "name": "nodejs-reports-generation-console-utilily-sample",
+  "name": "nodejs-exporting-console-utility-sample",
   "main": "./index.js",
   "version": "1.0.0",
-  "description": "This example shows how to generate reports with AnyChart charts and NodeJS.",
-  "title": "NodeJS utility for reports generation",
-  "homepage": "https://github.com/anychart-integrations/nodejs-reports-generation-console-utilily-sample",
+  "description": "This example shows how to export AnyChart charts to SVG or Image formats using NodeJS.",
+  "title": "NodeJS exporting utility",
+  "homepage": "https://github.com/anychart-integrations/nodejs-exporting-console-utility-sample",
   "license": "Apache-2.0",
   "keywords": [
     "utilily",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/anychart-integrations/nodejs-reports-generation-console-utilily-sample"
+    "url": "https://github.com/anychart-integrations/nodejs-exporting-console-utility-sample"
   },
   "dependencies": {
     "jsdom": "^9.9.1",
