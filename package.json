@@ -20,6 +20,6 @@
     "jsdom": "^9.9.1",
     "commander": "^2.9.0",
     "anychart": "7.13.0-dev-preview.0",
-    "anychart-export": "^1.0.0"
+    "anychart-nodejs": "^1.0.0"
   }
 }
