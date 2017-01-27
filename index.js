@@ -6,7 +6,7 @@ var d = jsdom('<body><div id="container"></div></body>');
 var w = d.defaultView;
 
 var anychart = require('anychart')(w);
-var anychart_export = require('anychart-export')(anychart);
+var anychart_nodejs = require('anychart-nodejs')(anychart);
 
 program
     .version('0.0.1')
@@ -32,7 +32,7 @@ if (!program.input) {
       }
 
       if (chart) {
-        anychart_export.exportTo(chart, program.type).then(function(image) {
+        anychart_nodejs.exportTo(chart, program.type).then(function(image) {
           fs.writeFile(program.output + '.' + program.type, image, function(err) {
             if (err) {
               console.log(err.message);
