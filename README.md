@@ -1,21 +1,21 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
 # NodeJS image generation utility
-This example shows how to export AnyChart charts to SVG or Image formats using NodeJS.
+This example shows how to export AnyChart charts to SVG, PNG, Jpeg Image formats using NodeJS.
 
 ## Running
-First of all you need to clone this repository
+Clone this repository:
 ```
 $ git clone git@github.com:anychart-integrations/nodejs-image-generation-utility.git
 ```
-Then go to the example directory
+Navigate to the example folder:
 ```
 $ cd ./nodejs-image-generation-utility
 ```
-For runing example you have to install dependency. Just exec command below.
+To run the example you have to install dependencies. Run the following command:
 ```
 $ npm install
 ```
-And to run with defaults you should just exec index.js file with nodejs. 
+To run the example with defaults you should just execute index.js file with nodejs: 
 ```
  $ node index.js 
  Written to image.png file
@@ -23,8 +23,8 @@ And to run with defaults you should just exec index.js file with nodejs.
 
 ## Options
 ```
- -i, --input [value] - path to input data file with chart, stage or svg. Default: chart.js.
- -o, --output [value] - path to output image or svg file. Default: image
+ -i, --input [value] - path to the input data file with a chart, a stage or an SVG file. Default: chart.js.
+ -o, --output [value] - path to the output file. Default: image
  -t, --type [value] - type of output data. Default: png
 ```
 
