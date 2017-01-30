@@ -32,7 +32,7 @@ To run the example with defaults you should just execute index.js file with node
 * jsdom (DOM environment for the chart rendering)
 * commander (for the console API)
 * anychart (AnyChart library)
-* anychart-export (AnyChart nodejs export module)
+* anychart-nodejs (AnyChart nodejs export module)
 
 ## Further Learning
 * [Documentation](https://docs.anychart.com)
