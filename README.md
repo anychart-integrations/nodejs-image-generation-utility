@@ -25,6 +25,7 @@ To run the example with defaults you should just execute index.js file with node
 ```
 > **Note!**
 > Please refrain from using percent values in chart. In node js DOM emulation there is some problems with this and resulting image may be differ from the planned.
+
 ## Options
 ```
  -i, --input [value] - path to the input data file with a chart, a stage or an SVG file. Default: chart.js.
