@@ -16,7 +16,9 @@ To run the example you have to install dependencies. Run the following command:
 $ npm install
 ```
 > **Notice!**
-> AnyChart NodeJS module requires ImageMagic to create JPG and PNG images. Visit Image Magic install page for details. Note for Windows users: you have to create environment variable as described in Image Magic: Advanced Windows Installation article.
+> AnyChart NodeJS module requires [ImageMagic](https://www.imagemagick.org) to create JPG and PNG images.
+Visit Image Magic [install](https://www.imagemagick.org/script/index.php) page for details.
+**Note for Windows users:** you have to create environment variable as described in [Image Magic: Advanced Windows Installation](https://www.imagemagick.org/script/advanced-windows-installation.php) article.
 
 To run the example with defaults you should just execute index.js file with nodejs: 
 ```
