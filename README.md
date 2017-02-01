@@ -15,12 +15,16 @@ To run the example you have to install dependencies. Run the following command:
 ```
 $ npm install
 ```
+> **Note!**
+> AnyChart NodeJS module requires ImageMagic to create JPG and PNG images. Visit Image Magic install page for details. Note for Windows users: you have to create environment variable as described in Image Magic: Advanced Windows Installation article.
+
 To run the example with defaults you should just execute index.js file with nodejs: 
 ```
  $ node index.js 
  Written to image.png file
 ```
-
+> **Note!**
+> Please refrain from using percent values in chart. In node js DOM emulation there is some problems with this and resulting image may be differ from the planned.
 ## Options
 ```
  -i, --input [value] - path to the input data file with a chart, a stage or an SVG file. Default: chart.js.
