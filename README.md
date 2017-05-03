@@ -1,6 +1,6 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
 # NodeJS image generation utility
-This example shows how to export AnyChart charts to SVG, PNG, Jpeg Image formats using NodeJS.
+This example shows how to build server-side charts exporting utility using AnyChart charting library and Node.js module. In this expample we will show how to generate SVG, PNG, Jpeg Images.
 
 ## Running
 Clone this repository:
