@@ -6,13 +6,13 @@ var d = jsdom('<body><div id="container"></div></body>');
 var w = d.defaultView;
 
 var anychart = require('anychart')(w);
-var anychart_nodejs = require('anychart-nodejs')(anychart);
+var anychart_nodejs = require('../AnyChart-NodeJS')(anychart);
 
 program
     .version('0.0.1')
     .option('-i, --input [value]', 'path to input data file with chart, stage or svg', 'chart.js')
-    .option('-o, --output [value]', 'path to output image or svg file.', 'image')
-    .option('-t, --type [value]', 'type of output data.', 'png');
+    .option('-o, --output [value]', 'path to output image or svg file.', 'tmp/image')
+    .option('-t, --type [value]', 'type of output data.', 'pdf');
 
 program.parse(process.argv);
 
@@ -43,6 +43,7 @@ if (!program.input) {
           });
         }, function(err) {
           console.log(err.message);
+          process.exit(0);
         });
       } else {
         console.log('Cannot find target chart');

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" border="0" data-ac-wrapper-id="6" width="100%" height="100%"
+     style="display: block;" class="anychart-ui-support" role="presentation">
+    <defs>
+        <clipPath clip-rule="nonzero" id="ac_clip_c">
+            <path data-ac-wrapper-id="47" fill="none" stroke="black"
+                  d="M 0 -30 L 87.1376953125 -30 87.1376953125 1 0 1 0 -30 Z"></path>
+        </clipPath>
+        <clipPath clip-rule="nonzero" id="ac_clip_e">
+            <path data-ac-wrapper-id="54" fill="none" stroke="black" d="M 73 75 L 917 75 917 919 73 919 73 75 Z"></path>
+        </clipPath>
+        <clipPath clip-rule="nonzero" id="ac_clip_g">
+            <path data-ac-wrapper-id="62" fill="none" stroke="black" d="M 73 75 L 917 75 917 919 73 919 73 75 Z"></path>
+        </clipPath>
+        <clipPath clip-rule="nonzero" id="ac_clip_i">
+            <path data-ac-wrapper-id="64" fill="none" stroke="black" d="M 73 75 L 917 75 917 919 73 919 73 75 Z"></path>
+        </clipPath>
+        <clipPath clip-rule="nonzero" id="ac_clip_k">
+            <path data-ac-wrapper-id="68" fill="none" stroke="black" d="M 73 75 L 917 75 917 919 73 919 73 75 Z"></path>
+        </clipPath>
+        <clipPath clip-rule="nonzero" id="ac_clip_m">
+            <path data-ac-wrapper-id="73" fill="none" stroke="black" d="M 73 75 L 917 75 917 919 73 919 73 75 Z"></path>
+        </clipPath>
+        <clipPath clip-rule="nonzero" id="ac_clip_o">
+            <path data-ac-wrapper-id="75" fill="none" stroke="black" d="M 73 75 L 917 75 917 919 73 919 73 75 Z"></path>
+        </clipPath>
+        <path data-ac-wrapper-id="15"
+              d="M 307.4359310453125 83.74500795468748 C 373.9955939263766 53.53556927450603 446.86734391371675 39.85011729754456 519.8521166765087 43.852847987483756"
+              fill="none" stroke="black" id="ac_path_0"></path>
+        <path data-ac-wrapper-id="17"
+              d="M 560.6335810148438 47.94298823125001 C 632.9595881805193 58.51406176628791 701.6621192450332 86.39856942485295 760.8967775823494 129.22442796702268"
+              fill="none" stroke="black" id="ac_path_1"></path>
+        <path data-ac-wrapper-id="19"
+              d="M 792.9930318828125 154.71339303828125 C 848.1223870891442 202.7087376328003 890.8431310467371 263.31007076781384 917.5210894685758 331.36214966813236"
+              fill="none" stroke="black" id="ac_path_2"></path>
+        <path data-ac-wrapper-id="21"
+              d="M 930.7417989617188 370.157380815625 C 951.1713214561066 440.33881367976517 954.3467439505952 514.4164772094188 939.9979391554695 586.0887222500472"
+              fill="none" stroke="black" id="ac_path_3"></path>
+        <path data-ac-wrapper-id="23"
+              d="M 821.1910887593749 812.53024858125 C 872.0110126328228 759.9932687888268 909.3890858069753 695.9584096274388 930.1456250683915 625.872997549733"
+              fill="none" stroke="black" id="ac_path_4"></path>
+        <path data-ac-wrapper-id="25"
+              d="M 598.8208759804687 938.7931567953126 C 669.9769521788425 922.0715621266281 736.0412468896875 888.4101226685524 791.3937933501062 840.6723545120944"
+              fill="none" stroke="black" id="ac_path_5"></path>
+        <path data-ac-wrapper-id="27"
+              d="M 343.48826420937496 924.7898543234376 C 412.3889413045003 949.1926329366572 486.1645107693452 956.5918823694668 558.5390220299878 946.3581622249804"
+              fill="none" stroke="black" id="ac_path_6"></path>
+        <path data-ac-wrapper-id="29"
+              d="M 136.259559378125 774.9663001601562 C 181.0293592212205 832.745742267377 239.0929814082417 878.8564711767533 305.5110615177141 909.3759328821016"
+              fill="none" stroke="black" id="ac_path_7"></path>
+        <path data-ac-wrapper-id="31"
+              d="M 42.92841221953125 536.8904075382812 C 49.35323968870381 609.7019485204903 73.27012481147148 679.8843262805478 112.64450262274528 741.4672563844947"
+              fill="none" stroke="black" id="ac_path_8"></path>
+        <path data-ac-wrapper-id="33"
+              d="M 41.173109412500025 495.9419541859375 C 41.34352064844495 422.84770086720357 59.1668146277741 350.87608331029764 93.12679685832524 286.14959325318705"
+              fill="none" stroke="black" id="ac_path_9"></path>
+        <path data-ac-wrapper-id="35"
+              d="M 113.78854568046876 250.75257346328124 C 153.44964160028843 189.3539058991439 207.35434477665524 138.4435285925582 270.91708229849837 102.35229271815444"
+              fill="none" stroke="black" id="ac_path_a"></path>
+    </defs>
+    <g data-ac-wrapper-id="7">
+        <g data-ac-wrapper-id="37" aria-hidden="true">
+            <g data-ac-wrapper-id="38">
+                <path data-ac-wrapper-id="39" fill="#FEFEFE" stroke="none"
+                      d="M 0 0 L 1000 0 1000 0 1000 1000 1000 1000 0 1000 0 1000 0 0 0 0 Z"></path>
+            </g>
+            <g data-ac-wrapper-id="48" clip-path="url(#ac_clip_e)" clipPathunits="userSpaceOnUse">
+                <path data-ac-wrapper-id="49" fill="#fefefe" stroke="none"
+                      d="M 757.4390878563537 166.5310526462054 A 422 422 0 0 0 537.1128079711041 77.10654755665826 L 530.3341722808616 520.0724135977664 M 499.2112807971104 455.0106547556658 A 42.2 42.2 0 0 1 521.2439087856354 463.95310526462055 Z"></path>
+                <path data-ac-wrapper-id="50" fill="#fefefe" stroke="none"
+                      d="M 904.6262650781898 598.4412290840986 A 422 422 0 0 0 894.4428116531967 360.87711353857924 L 504.54158035236605 538.1071556347474 M 534.9442811653197 483.3877113538579 A 42.2 42.2 0 0 1 535.962626507819 507.1441229084099 Z"></path>
+                <path data-ac-wrapper-id="51" fill="#fefefe" stroke="none"
+                      d="M 572.8907126103867 911.7493663515909 A 422 422 0 0 0 784.7562736217412 803.7984711448912 L 466.32833919333495 466.03589389974985 M 523.9756273621741 527.6798471144891 A 42.2 42.2 0 0 1 502.78907126103866 538.4749366351591 Z"></path>
+                <path data-ac-wrapper-id="52" fill="#fefefe" stroke="none"
+                      d="M 150.0876777053503 740.1449977468417 A 422 422 0 0 0 336.29540069471085 888.0202682206482 L 535.253358187938 509.6691418254577 M 479.1295400694711 536.1020268220648 A 42.2 42.2 0 0 1 460.50876777053503 521.3144997746841 Z"></path>
+                <path data-ac-wrapper-id="53" fill="#fefefe" stroke="none"
+                      d="M 130.54577368852762 284.2627984491052 A 422 422 0 0 0 73.387180010527 515.0729084688722 L 453.7624389263902 505.96122517852893 M 452.8387180010527 498.8072908468872 A 42.2 42.2 0 0 1 458.55457736885273 475.7262798449105 Z"></path>
+            </g>
+            <g data-ac-wrapper-id="55" clip-path="url(#ac_clip_g)" clipPathunits="userSpaceOnUse">
+                <path data-ac-wrapper-id="56" fill="#fefefe" stroke="none"
+                      d="M 537.1128079711044 77.10654755665831 A 422 422 0 0 0 303.41600910991144 120.99524679250862 L 526.365158543923 468.76762798639527 M 475.84160091099113 459.3995246792509 A 42.2 42.2 0 0 1 499.2112807971104 455.0106547556658 Z"></path>
+                <path data-ac-wrapper-id="57" fill="#fefefe" stroke="none"
+                      d="M 894.4428116531967 360.87711353857935 A 422 422 0 0 0 757.4390878563537 166.5310526462054 L 481.76474373202103 537.0707872585618 M 521.2439087856354 463.95310526462055 A 42.2 42.2 0 0 1 534.9442811653197 483.3877113538579 Z"></path>
+                <path data-ac-wrapper-id="58" fill="#fefefe" stroke="none"
+                      d="M 784.7562736217413 803.798471144891 A 422 422 0 0 0 904.6262650781898 598.4412290840987 L 457.716536017081 516.7682400186355 M 535.962626507819 507.1441229084099 A 42.2 42.2 0 0 1 523.9756273621741 527.6798471144891 Z"></path>
+                <path data-ac-wrapper-id="59" fill="#fefefe" stroke="none"
+                      d="M 336.2954006947108 888.0202682206482 A 422 422 0 0 0 572.8907126103865 911.749366351591 L 517.5720847440919 461.34413105384283 M 502.78907126103866 538.4749366351591 A 42.2 42.2 0 0 1 479.1295400694711 536.1020268220648 Z"></path>
+                <path data-ac-wrapper-id="60" fill="#fefefe" stroke="none"
+                      d="M 73.387180010527 515.0729084688726 A 422 422 0 0 0 150.08767770535053 740.144997746842 L 493.08184325583665 539.1563835581851 M 460.50876777053503 521.3144997746842 A 42.2 42.2 0 0 1 452.8387180010527 498.80729084688727 Z"></path>
+                <path data-ac-wrapper-id="61" fill="#fefefe" stroke="none"
+                      d="M 303.4160091099112 120.9952467925088 A 422 422 0 0 0 130.54577368852767 284.26279844910505 L 475.75923595722577 459.4416054782651 M 458.5545773688528 475.7262798449105 A 42.2 42.2 0 0 1 475.84160091099113 459.3995246792509 Z"></path>
+            </g>
+            <path data-ac-wrapper-id="63" clip-path="url(#ac_clip_i)" clipPathunits="userSpaceOnUse" fill="none"
+                  stroke="#CECECE"
+                  d="M 303 121 L 476 459 M 537 77 L 499 455 M 757 167 L 521 464 M 894 361 L 535 483 M 905 598 L 536 507 M 785 804 L 524 528 M 573 912 L 503 538 M 336 888 L 479 536 M 150 740 L 461 521 M 73 515 L 453 499 M 131 284 L 459 476"></path>
+            <g data-ac-wrapper-id="65" clip-path="url(#ac_clip_k)" clipPathunits="userSpaceOnUse">
+                <path data-ac-wrapper-id="66" fill="none" stroke="none"
+                      d="M 689.12 497 A 194.12 194.12 0 0 1 300.88 497 A 194.12 194.12 0 0 1 689.12 496.99999999999994 L 613 497 M 613.16 496.99999999999994 A 118.16000000000001 118.16000000000001 0 0 0 376.8399999999999 497 A 118.16000000000001 118.16000000000001 0 0 0 613.16 497 Z"></path>
+                <path data-ac-wrapper-id="67" fill="none" stroke="none"
+                      d="M 841.04 497 A 346.04 346.04 0 0 1 148.95999999999992 497.00000000000006 A 346.04 346.04 0 0 1 841.04 496.99999999999994 L 765 497 M 765.0799999999999 496.99999999999994 A 270.08 270.08 0 0 0 224.91999999999996 497.00000000000006 A 270.08 270.08 0 0 0 765.0799999999999 497 Z"></path>
+            </g>
+            <g data-ac-wrapper-id="69" clip-path="url(#ac_clip_m)" clipPathunits="userSpaceOnUse">
+                <path data-ac-wrapper-id="70" fill="none" stroke="none"
+                      d="M 613.16 497 A 118.16000000000001 118.16000000000001 0 0 1 376.8399999999999 497 A 118.16000000000001 118.16000000000001 0 0 1 613.16 496.99999999999994 L 537 497 M 537.2 497 A 42.2 42.2 0 0 0 452.80000000000007 497 A 42.2 42.2 0 0 0 537.2 497 Z"></path>
+                <path data-ac-wrapper-id="71" fill="none" stroke="none"
+                      d="M 765.0799999999999 497 A 270.08 270.08 0 0 1 224.91999999999996 497.00000000000006 A 270.08 270.08 0 0 1 765.0799999999999 496.99999999999994 L 689 497 M 689.12 496.99999999999994 A 194.12 194.12 0 0 0 300.88 497 A 194.12 194.12 0 0 0 689.12 497 Z"></path>
+                <path data-ac-wrapper-id="72" fill="none" stroke="none"
+                      d="M 917 497 A 422 422 0 0 1 73 497.00000000000006 A 422 422 0 0 1 917 496.9999999999999 L 841 497 M 841.04 496.99999999999994 A 346.04 346.04 0 0 0 148.95999999999992 497.00000000000006 A 346.04 346.04 0 0 0 841.04 497 Z"></path>
+            </g>
+            <path data-ac-wrapper-id="74" clip-path="url(#ac_clip_o)" clipPathunits="userSpaceOnUse" fill="none"
+                  stroke="#CECECE"
+                  d="M 537.2 497 A 42.2 42.2 0 0 1 452.80000000000007 497 A 42.2 42.2 0 0 1 537.2 497 M 613.16 497 A 118.16000000000001 118.16000000000001 0 0 1 376.8399999999999 497 A 118.16000000000001 118.16000000000001 0 0 1 613.16 496.99999999999994 M 689.12 497 A 194.12 194.12 0 0 1 300.88 497 A 194.12 194.12 0 0 1 689.12 496.99999999999994 M 765.0799999999999 497 A 270.08 270.08 0 0 1 224.91999999999996 497.00000000000006 A 270.08 270.08 0 0 1 765.0799999999999 496.99999999999994 M 841.04 497 A 346.04 346.04 0 0 1 148.95999999999992 497.00000000000006 A 346.04 346.04 0 0 1 841.04 496.99999999999994 M 917 497 A 422 422 0 0 1 73 497.00000000000006 A 422 422 0 0 1 917 496.9999999999999"></path>
+            <path data-ac-wrapper-id="76" fill="rgba(180, 180, 180, 0.3)" stroke="none"
+                  d="M 917 497 A 422 422 0 0 1 73 497.00000000000006 A 422 422 0 0 1 917 496.9999999999999 M 980 497 A 485 485 0 0 0 10 496.99999999999994 A 485 485 0 0 0 980 497.0000000000001"></path>
+            <path data-ac-wrapper-id="77" fill="none" stroke="none"
+                  d="M 917 497 A 422 422 0 0 1 73 497.00000000000006 A 422 422 0 0 1 917 496.9999999999999"></path>
+            <path data-ac-wrapper-id="78" fill="none" stroke="#FEFEFE"
+                  d="M 303 121 L 275 65 M 537 77 L 543 14 M 757 167 L 797 117 M 894 361 L 954 341 M 905 598 L 966 614 M 785 804 L 828 850 M 573 912 L 585 974 M 336 888 L 313 946 M 150 740 L 99 776 M 73 515 L 10 518 M 131 284 L 76 253"></path>
+            <g data-ac-wrapper-id="79">
+                <g data-ac-wrapper-id="80">
+                    <text data-ac-wrapper-id="16" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="321.17573063046876" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_0">
+                            <tspan x="17.66224609375" dy="-2.119140625">Planning Organization Organization and</tspan>
+                            <tspan x="4.324843749999999" dy="11.171875">Organization Organizationdd Organizationeferg
+                            </tspan>
+                        </textPath>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="81">
+                    <text data-ac-wrapper-id="18" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="665.6743651484375" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_1">
+                            <tspan x="38.5191796875" dy="3.466796875">Action and performance at work</tspan>
+                        </textPath>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="82">
+                    <text data-ac-wrapper-id="20" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="865.9264155968749" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_2">
+                            <tspan x="78.26283203125" dy="3.466796875">Responsibility</tspan>
+                        </textPath>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="83">
+                    <text data-ac-wrapper-id="22" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="948.4117603867187" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_3">
+                            <tspan x="73.5387109375" dy="3.466796875">Problem solving</tspan>
+                        </textPath>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="84">
+                    <text data-ac-wrapper-id="24" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="886.9422384882812" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_4">
+                            <tspan x="83.2750390625" dy="3.466796875">Team Work</tspan>
+                        </textPath>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="85">
+                    <text data-ac-wrapper-id="26" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="701.0336573828125" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_5">
+                            <tspan x="85.49671875" dy="3.466796875">Dynamism</tspan>
+                        </textPath>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="86">
+                    <text data-ac-wrapper-id="28" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="449.7107396296875" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_6">
+                            <tspan x="74.373671875" dy="3.466796875">Communication</tspan>
+                        </textPath>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="87">
+                    <text data-ac-wrapper-id="30" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="212.76748855078125" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_7">
+                            <tspan x="62.967421875" dy="3.466796875">People Management</tspan>
+                        </textPath>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="88">
+                    <text data-ac-wrapper-id="32" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="65.430422378125" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_8">
+                            <tspan x="67.70375" dy="3.466796875">Customer-oriented</tspan>
+                        </textPath>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="89">
+                    <text data-ac-wrapper-id="34" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="54.47887805624998" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_9">
+                            <tspan x="86.04359375" dy="3.466796875">Resilience</tspan>
+                        </textPath>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="90">
+                    <text data-ac-wrapper-id="36" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" style="opacity: 1;" x="183.38990968593754" y="0"
+                          aria-hidden="true">
+                        <textPath xlink:href="#ac_path_a">
+                            <tspan x="55.73353515625" dy="3.466796875">Learning and innovation</tspan>
+                        </textPath>
+                    </text>
+                </g>
+            </g>
+            <g data-ac-wrapper-id="91"></g>
+            <g data-ac-wrapper-id="119">
+                <path data-ac-wrapper-id="120" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 445.9156388039577 389.5173917046276 C 463.2879454459772 381.55798675224895 482.66820947933076 377.91834689887963 501.74457025662633 379.03264700751555 L 501.74457025662633 379.03264700751555 C 482.66820947933076 377.91834689887963 463.28794544597713 381.55798675224884 445.9156388039577 389.5173917046276 Z"></path>
+                <path data-ac-wrapper-id="121" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 511.81724916904557 380.0428893551733 C 530.734937776835 382.7392134692732 549.0063839678829 390.1551422942636 564.4519873967187 401.4060302809532 L 564.4519873967187 401.4060302809532 C 549.0063839678829 390.1551422942636 530.734937776835 382.7392134692731 511.81724916904557 380.0428893551733 Z"></path>
+                <path data-ac-wrapper-id="122" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 572.3794774591289 407.7016121749549 C 586.8362911440742 420.19760191595424 598.1978331231388 436.3145766351438 605.1087889544451 454.1299615700492 L 605.1087889544451 454.1299615700492 C 598.1978331231388 436.31457663514385 586.8362911440743 420.1976019159542 572.3794774591289 407.7016121749549 Z"></path>
+                <path data-ac-wrapper-id="123" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 608.3741566354744 463.71207114891473 C 613.7802536585403 482.0397461742732 614.6242621599694 501.7427162095164 610.8070137355065 520.4631875427061 L 610.8070137355065 520.4631875427061 C 614.6242621599694 501.7427162095164 613.7802536585403 482.0397461742732 608.3741566354744 463.71207114891473 Z"></path>
+                <path data-ac-wrapper-id="124" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 681.2567395130396 551.6900483266535 C 672.4482058803975 581.8266630675247 656.1154978425865 609.8037606276454 634.2120877517918 632.2869876366069 L 688.6863829590147 685.2253741031052 C 719.1606926505552 653.9443626123763 741.884460355336 615.0197051374254 754.1398114964029 573.0905020196917 Z"></path>
+                <path data-ac-wrapper-id="125" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 572.3781654056011 586.2995247381723 C 557.9500572955191 598.8327192128817 540.3797337544005 607.7839951997947 521.76479856416 612.0887968388754 L 521.76479856416 612.0887968388754 C 540.3797337544005 607.7839951997947 557.950057295519 598.8327192128817 572.3781654056011 586.2995247381723 Z"></path>
+                <path data-ac-wrapper-id="126" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 511.81553073740764 613.9573577250243 C 492.9018743086817 616.7005054093102 473.2813522652323 614.7315315583318 455.29413149476426 608.288946469292 L 455.29413149476426 608.288946469292 C 473.2813522652323 614.7315315583318 492.9018743086817 616.7005054093102 511.81553073740764 613.9573577250243 Z"></path>
+                <path data-ac-wrapper-id="127" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 445.9140595865946 604.4818870960667 C 428.5198317154245 596.5640500245089 413.0785245434979 584.299972696411 401.4298544739603 569.1554811932937 L 401.4298544739603 569.1554811932937 C 413.07852454349796 584.2999726964111 428.5198317154246 596.5640500245088 445.9140595865946 604.4818870960667 Z"></path>
+                <path data-ac-wrapper-id="128" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 395.5970985862579 560.8815215107614 C 385.24486949685917 544.8165718116611 378.88530212190085 526.1511597714152 377.2735726642221 507.1130562518861 L 377.2735726642221 507.1130562518861 C 378.88530212190085 526.1511597714152 385.24486949685917 544.816571811661 395.5970985862579 560.8815215107614 Z"></path>
+                <path data-ac-wrapper-id="129" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 376.8400000031885 496.99913194817 C 376.816546965501 477.8875967594079 381.5578414874674 458.7470213757828 390.4947697484745 441.8597927998485 L 390.4947697484745 441.8597927998485 C 381.55784148746744 458.7470213757827 376.8165469655011 477.8875967594079 376.8400000031885 496.99913194817 Z"></path>
+                <path data-ac-wrapper-id="130" vector-effect="non-scaling-stroke" fill="#E2DFE0" fill-opacity="0.85"
+                      stroke="#E2DFE0" stroke-width="1.5"
+                      d="M 395.59803719671066 433.1170179871549 C 405.9108018516262 417.0267068972835 420.2476329014908 403.48798492267014 436.8957899738553 394.11323516973783 L 436.8957899738553 394.11323516973783 C 420.2476329014908 403.48798492267014 405.9108018516263 417.0267068972835 395.59803719671066 433.1170179871549 Z"></path>
+            </g>
+            <g data-ac-wrapper-id="131"></g>
+            <g data-ac-wrapper-id="92">
+                <path data-ac-wrapper-id="93" vector-effect="non-scaling-stroke" fill="rgba(180, 180, 180, 0.3)"
+                      stroke="none"
+                      d="M 487.2088792855992 455.5254483084671 L 459.16084471375626 306.2170622189486 582.277189639472 281.9346560492936 591.5722678408546 428.9148864723408 650.9964395973673 490.3059404734537 629.8448178578283 575.7183250386408 531.3979169080455 568.442452678747 486.99506360708733 576.7794045687572 445.13373261208034 559.7868439786274 419.1046611954426 522.8598133740644 343.44008046669126 459.4594833405696 413.87247421789584 411.09243246096406 459.16084471375626 306.2170622189486 487.2088792855992 455.5254483084671 Z"></path>
+                <path data-ac-wrapper-id="94" vector-effect="non-scaling-stroke" fill="none" stroke="#da291c"
+                      stroke-width="1.5"
+                      d="M 459.16084471375626 306.2170622189486 L 582.277189639472 281.9346560492936 591.5722678408546 428.9148864723408 650.9964395973673 490.3059404734537 629.8448178578283 575.7183250386408 531.3979169080455 568.442452678747 486.99506360708733 576.7794045687572 445.13373261208034 559.7868439786274 419.1046611954426 522.8598133740644 343.44008046669126 459.4594833405696 413.87247421789584 411.09243246096406 459.16084471375626 306.2170622189486"></path>
+            </g>
+            <g data-ac-wrapper-id="95">
+                <g data-ac-wrapper-id="96">
+                    <text data-ac-wrapper-id="97" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="446.81855955750626" y="299.0383512814486" aria-hidden="true">
+                        <tspan x="446.81855955750626" dy="0">4</tspan>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="98">
+                    <text data-ac-wrapper-id="99" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="586.277189639472" y="274.7559451117936" aria-hidden="true">
+                        <tspan x="586.277189639472" dy="0">5</tspan>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="100">
+                    <text data-ac-wrapper-id="101" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="595.5722678408546" y="421.7361755348408" aria-hidden="true">
+                        <tspan x="595.5722678408546" dy="0">2</tspan>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="102">
+                    <text data-ac-wrapper-id="103" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="654.9964395973673" y="483.1272295359537" aria-hidden="true">
+                        <tspan x="654.9964395973673" dy="0">3</tspan>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="104">
+                    <text data-ac-wrapper-id="105" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="633.8448178578283" y="593.2974266011408" aria-hidden="true">
+                        <tspan x="633.8448178578283" dy="0">3</tspan>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="106">
+                    <text data-ac-wrapper-id="107" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="535.3979169080455" y="586.021554241247" aria-hidden="true">
+                        <tspan x="535.3979169080455" dy="0">1</tspan>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="108">
+                    <text data-ac-wrapper-id="109" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="474.65277845083733" y="594.3585061312572" aria-hidden="true">
+                        <tspan x="474.65277845083733" dy="0">1</tspan>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="110">
+                    <text data-ac-wrapper-id="111" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="432.79144745583034" y="577.3659455411274" aria-hidden="true">
+                        <tspan x="432.79144745583034" dy="0">1</tspan>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="112">
+                    <text data-ac-wrapper-id="113" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="406.7623760391926" y="540.4389149365644" aria-hidden="true">
+                        <tspan x="406.7623760391926" dy="0">1</tspan>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="114">
+                    <text data-ac-wrapper-id="115" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="331.09779531044126" y="452.2807724030696" aria-hidden="true">
+                        <tspan x="331.09779531044126" dy="0">3</tspan>
+                    </text>
+                </g>
+                <g data-ac-wrapper-id="116">
+                    <text data-ac-wrapper-id="117" font-style="normal" font-variant="normal" font-family="Arial"
+                          font-size="15" font-weight="bold" fill="#da291c" letter-spacing="normal"
+                          text-decoration="none" direction="ltr" text-anchor="start" style="opacity: 1;"
+                          x="401.53018906164584" y="403.91372152346406" aria-hidden="true">
+                        <tspan x="401.53018906164584" dy="0">2</tspan>
+                    </text>
+                </g>
+            </g>
+            <g data-ac-wrapper-id="118"></g>
+            <g data-ac-wrapper-id="40" transform="matrix(1,0,0,1,10,984)" clip-path="url(#ac_clip_c)"
+               clipPathunits="userSpaceOnUse">
+                <g data-ac-wrapper-id="41">
+                    <g data-ac-wrapper-id="42" transform="matrix(1,0,0,1,10,-30)">
+                        <text data-ac-wrapper-id="43" font-style="normal" font-variant="normal" font-family="Arial"
+                              font-size="10" font-weight="normal" fill="#7c868e" letter-spacing="normal"
+                              text-decoration="none" direction="ltr" text-anchor="start"
+                              style="opacity: 1; cursor: pointer;" x="20" y="13.966796875" aria-hidden="true">
+                            <tspan x="20" dy="0">Applicant</tspan>
+                        </text>
+                        <path data-ac-wrapper-id="44" style="cursor: pointer;" transform="matrix(1,0,0,1,0,3)"
+                              fill="none" stroke="#da291c" stroke-width="6" d="M 0 7.5 L 15 7.5 Z"></path>
+                        <path data-ac-wrapper-id="46" style="cursor: pointer;" fill="none" stroke="black"
+                              d="M 0,0"></path>
+                        <path data-ac-wrapper-id="45" style="cursor: pointer;" fill="#FFFFFF" fill-opacity="0.00001"
+                              stroke="none" d="M 0 0 L 67.1376953125 0 67.1376953125 21 0 21 0 0 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
