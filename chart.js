@@ -1,52 +1,61 @@
 // create data set on our data
-chartData = {
-  title: 'Company Profit Dynamic in Regions by Year',
-  header: ['#', 'Florida', 'Texas', 'Nevada', 'Arizona'],
-  rows: [
-    ['2001', 128.14, -90.54, -43.76, -122.56],
-    ['2002', 112.61, 104.19, 61.34, -87.12],
-    ['2003', -123.21, 135.12, -34.17, 54.32]
-  ]
-};
+  var dataSet = anychart.data.set([
+    ['Lip gloss', 22998, 12043],
+    ['Eyeliner', 12321, 15067],
+    ['Eyeshadows', 12998, 12043],
+    ['Powder', 10261, 14419],
+    ['Mascara', 11261, 10419],
+    ['Foundation', 10342, 10119],
+    ['Rouge', 11624, 7004]
+  ]);
+
+// map data for the first series, take x from the zero column and value from the first column of data set
+  var seriesData_1 = dataSet.mapAs({x: [0], value: [1]});
+
+// map data for the second series, take x from the zero column and value from the second column of data set
+  var seriesData_2 = dataSet.mapAs({x: [0], value: [2]});
 
 // create column chart
-chart = anychart.column3d();
-chart.background(null);
+  chart = anychart.column3d();
 
-// set chart data
-chart.data(chartData);
-
-// set chart title text settings
-chart.title().padding([0, 0, 5, 0]);
-chart.interactivity().hoverMode('single');
-
-chart.xAxis(0)
-    .stroke(null)
-    .title('Profit in Dollars');
-chart.xAxis(1)
-    .stroke(null)
-    .orientation('top');
-chart.yAxis().labels().format('{%Value}k');
-
-// turn on legend
-chart.legend()
-    .enabled(true)
-    .fontSize(13)
-    .padding([0, 0, 20, 0]);
-
-// set tooltip settings
-chart.tooltip().format('{%SeriesName} : {%Value}{groupsSeparator: }k.');
-
-chart.labels()
-    .enabled(true)
-    .fontColor('#393838');
-
-// set bars settings
-chart.barsPadding(0.1)
-    .barGroupsPadding(0.9);
+// chart bounds
+  chart.bounds(0, 0, 1024, 768);µ
 
 // set container id for the chart
-chart.container('container');
+  chart.container('container');
+
+// set chart title text settings
+  chart.title('Top 7 Products by Revenue in two Regions');
+  chart.title().padding([0, 0, 10, 0]);
+
+// temp variable to store series instance
+  var series;
+
+// create first series with mapped data
+  series = chart.column(seriesData_1);
+  series.name('Florida');
+  series.hatchFill('dashedForwardDiagonal');
+
+// create second series with mapped data
+  series = chart.column(seriesData_2);
+  series.name('Texas');
+  series.hatchFill('divot');
+
+  chart.yAxis().labels().textFormatter(function() {
+    return this.value.toLocaleString();
+  });
+
+// set titles for Y-axis
+  chart.yAxis().title('Revenue in Dollars');
+// turn on legend
+  chart.legend().enabled(true).fontSize(13).padding([0, 0, 20, 0]);
+
+  chart.interactivity().hoverMode('single');
+
+  chart.tooltip().valuePrefix('$');
+
+  chart.grid();
+  chart.grid(1).layout('vertical');
 
 // initiate chart drawing
-chart.draw();
+  chart.draw();
