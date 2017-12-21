@@ -8,8 +8,7 @@ var document = jsdom('<div id="container"></div>');
 var window = document.defaultView;
 
 var anychart = require('anychart')(window);
-// var anychart_nodejs = require('anychart-nodejs')(anychart);
-var anychart_nodejs = require('../AnyChart-NodeJS')(anychart);
+var anychart_nodejs = require('anychart-nodejs')(anychart);
 
 program
     .version('0.0.1')
