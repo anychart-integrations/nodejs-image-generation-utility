@@ -3,7 +3,7 @@
   "title": "NodeJS image generation utility",
   "description": "This example shows how to export AnyChart charts to SVG or Image formats using NodeJS.",
   "main": "./index.js",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "homepage": "https://github.com/anychart-integrations/nodejs-image-generation-utility",
   "license": "Apache-2.0",
   "keywords": [
