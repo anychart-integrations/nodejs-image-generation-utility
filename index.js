@@ -1,8 +1,10 @@
+#!/usr/bin/env node
+
 var fs = require('fs');
 var jsdom = require('jsdom').jsdom;
 var program = require('commander');
 
-var document = jsdom('<body><div id="container"></div></body>');
+var document = jsdom('<div id="container"></div>');
 var window = document.defaultView;
 
 var anychart = require('anychart')(window);
@@ -11,8 +13,8 @@ var anychart_nodejs = require('../AnyChart-NodeJS')(anychart);
 
 program
     .version('0.0.1')
-    .option('-i, --input [value]', 'path to input data file with chart, stage or svg', 'chart.js')
-    .option('-f, --dataType [value]', 'type of input data', 'javascript')
+    .option('-i, --input [value]', 'path to input data file with chart, stage or svg.', 'chart.js')
+    .option('-f, --format [value]', 'format (type) of input data. Possible values: svg, xml, javascript, json.', 'javascript')
     .option('-o, --output [value]', 'path to output image or svg file.', 'tmp/image')
     .option('-t, --type [value]', 'type of output data.', 'pdf');
 
@@ -28,7 +30,8 @@ if (!program.input) {
       //export parameters
       var params = {
         type: program.type,
-        dataType: program.dataType
+        dataType: program.format,
+        document: document
       };
 
       //exporting input data
@@ -41,14 +44,13 @@ if (!program.input) {
           } else {
             console.log('Written to ' + fileName + ' file');
           }
-          process.exit(0);
         });
       }, function(err) {
         console.log(err.message);
-        process.exit(0);
       });
-    }
 
+      process.exit(0);
+    }
   });
 }
 

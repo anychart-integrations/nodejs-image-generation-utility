@@ -31,7 +31,7 @@ To run the example with defaults you should just execute index.js file with node
 ## Options
 ```
  -i, --input [value] - path to the input data file with a chart, a stage or an SVG file. Default: chart.js.
- -dt, --dataType [value] - type of input data. Default: javascript.
+ -f, --format [value] - format (type) of input data. Possible values: svg, xml, javascript, json. Default: javascript.
  -o, --output [value] - path to the output file. Default: image
  -t, --type [value] - type of output data. Default: png
 ```
