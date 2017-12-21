@@ -2,17 +2,19 @@ var fs = require('fs');
 var jsdom = require('jsdom').jsdom;
 var program = require('commander');
 
-var d = jsdom('<body><div id="container"></div></body>');
-var w = d.defaultView;
+var document = jsdom('<body><div id="container"></div></body>');
+var window = document.defaultView;
 
-var anychart = require('anychart')(w);
-var anychart_nodejs = require('anychart-nodejs')(anychart);
+var anychart = require('anychart')(window);
+// var anychart_nodejs = require('anychart-nodejs')(anychart);
+var anychart_nodejs = require('../AnyChart-NodeJS')(anychart);
 
 program
     .version('0.0.1')
     .option('-i, --input [value]', 'path to input data file with chart, stage or svg', 'chart.js')
-    .option('-o, --output [value]', 'path to output image or svg file.', 'image')
-    .option('-t, --type [value]', 'type of output data.', 'png');
+    .option('-f, --dataType [value]', 'type of input data', 'javascript')
+    .option('-o, --output [value]', 'path to output image or svg file.', 'tmp/image')
+    .option('-t, --type [value]', 'type of output data.', 'pdf');
 
 program.parse(process.argv);
 
@@ -23,30 +25,30 @@ if (!program.input) {
     if (err) {
       console.log(err.message);
     } else {
-      var chart;
-      try {
-        eval(data);
-      } catch (e) {
-        console.log(e.message);
-        chart = null;
-      }
+      //export parameters
+      var params = {
+        type: program.type,
+        dataType: program.dataType
+      };
 
-      if (chart) {
-        anychart_nodejs.exportTo(chart, program.type).then(function(image) {
-          fs.writeFile(program.output + '.' + program.type, image, function(err) {
-            if (err) {
-              console.log(err.message);
-            } else {
-              console.log('Written to file');
-            }
-            process.exit(0);
-          });
-        }, function(err) {
-          console.log(err.message);
+      //exporting input data
+      anychart_nodejs.exportTo(data, params).then(function(image) {
+        //writing image data to file
+        var fileName = program.output + '.' + program.type;
+        fs.writeFile(fileName, image, function(err) {
+          if (err) {
+            console.log(err.message);
+          } else {
+            console.log('Written to ' + fileName + ' file');
+          }
+          process.exit(0);
         });
-      } else {
-        console.log('Cannot find target chart');
-      }
+      }, function(err) {
+        console.log(err.message);
+        process.exit(0);
+      });
     }
+
   });
 }
+
