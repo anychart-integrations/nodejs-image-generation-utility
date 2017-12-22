@@ -1,14 +1,10 @@
 #!/usr/bin/env node
 
 var fs = require('fs');
-var jsdom = require('jsdom').jsdom;
 var program = require('commander');
 
-var document = jsdom('<div id="container"></div>');
-var window = document.defaultView;
-
-var anychart = require('anychart')(window);
-var anychart_nodejs = require('anychart-nodejs')(anychart);
+// var anychart_nodejs = require('anychart-nodejs')(anychart);
+var anychart_nodejs = require('../AnyChart-NodeJS');
 
 program
     .version('0.0.1')
@@ -24,31 +20,34 @@ if (!program.input) {
 } else {
   fs.readFile(program.input, 'utf8', function(err, data) {
     if (err) {
-      console.log(err.message);
+      console.log(err);
     } else {
       //export parameters
       var params = {
         type: program.type,
-        dataType: program.format,
-        document: document
+        dataType: program.format
+        // resources: [
+        //   'https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js',
+        //   'https://cdn.anychart.com/geodata/1.2.0/countries/united_states_of_america/united_states_of_america.js'
+        // ]
       };
 
       //exporting input data
-      anychart_nodejs.exportTo(data, params).then(function(image) {
+      anychart_nodejs.exportTo(data, program.type).then(function(image) {
         //writing image data to file
         var fileName = program.output + '.' + program.type;
         fs.writeFile(fileName, image, function(err) {
           if (err) {
-            console.log(err.message);
+            console.log(err);
           } else {
             console.log('Written to ' + fileName + ' file');
           }
+          process.exit(0);
         });
       }, function(err) {
-        console.log(err.message);
+        console.log(err);
+        process.exit(0);
       });
-
-      process.exit(0);
     }
   });
 }
