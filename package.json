@@ -16,6 +16,7 @@
     "type": "git",
     "url": "https://github.com/anychart-integrations/nodejs-image-generation-utility"
   },
+  "bin": "./index.js",
   "dependencies": {
     "jsdom": "^9.9.1",
     "commander": "^2.9.0",
