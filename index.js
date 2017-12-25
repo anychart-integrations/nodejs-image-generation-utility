@@ -3,7 +3,7 @@
 var fs = require('fs');
 var path = require('path');
 var program = require('commander');
-var anychart_nodejs = require('../AnyChart-NodeJS');
+var anychart_nodejs = require('anychart-nodejs');
 
 program
     .version('0.0.2')
