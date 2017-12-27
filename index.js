@@ -9,7 +9,7 @@ program
     .version('0.0.3')
     .option('-i, --input [value]', 'path to input data file with chart, stage or svg.', 'chart.js')
     .option('-o, --output [value]', 'path to output image or svg file.', 'tmp/image')
-    .option('-t, --type [value]', 'type of output data.', 'pdf');
+    .option('-t, --type [value]', 'type of output data.', 'png');
 
 program.parse(process.argv);
 

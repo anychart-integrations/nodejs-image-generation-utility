@@ -1,4 +1,7 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
+
+[![NPM Version][npm-image]][npm-url] [![NPM Downloads][downloads-image]][downloads-url] [![Package Quality][quality-image]][quality-url]
+
 # Node.js charts exporting command-line utility
 This example shows how to build server-side charts exporting command-line utility using AnyChart charting library and Node.js module. In this example we will show how to generate SVG, PNG, Jpeg Images.
 
@@ -55,3 +58,10 @@ AnyChart NodeJS integration sample includes two parts:
 If you have any questions regarding licensing - please contact us. <sales@anychart.com>
 
 [![Analytics](https://ga-beacon.appspot.com/UA-228820-4/Integrations/nodejs-image-generation-utility?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)
+
+[npm-image]: https://img.shields.io/npm/v/nodejs-image-generation-utility.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/nodejs-image-generation-utility
+[downloads-image]: https://img.shields.io/npm/dm/nodejs-image-generation-utility.svg?style=flat-square
+[downloads-url]: https://www.npmjs.com/package/nodejs-image-generation-utility
+[quality-image]: http://npm.packagequality.com/shield/nodejs-image-generation-utility.svg?style=flat-square
+[quality-url]: http://packagequality.com/#?package=nodejs-image-generation-utility
