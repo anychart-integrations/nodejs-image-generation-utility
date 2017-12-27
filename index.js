@@ -6,7 +6,7 @@ var program = require('commander');
 var anychart_nodejs = require('anychart-nodejs');
 
 program
-    .version('0.0.2')
+    .version('0.0.3')
     .option('-i, --input [value]', 'path to input data file with chart, stage or svg.', 'chart.js')
     .option('-o, --output [value]', 'path to output image or svg file.', 'tmp/image')
     .option('-t, --type [value]', 'type of output data.', 'pdf');
